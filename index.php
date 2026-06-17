@@ -50,48 +50,7 @@
                 <div class="title-divider"></div>
 
                 
-                <!-- số liệu nổi bật -->
-                <div class="container-center">
-                    <div class="highlights">
-
-                        <div class="highlight-item">
-                            <span class="highlight-title">
-                                CHĂN NUÔI GIA SÚC
-                            </span>
-
-                            <h3 class="highlight-number">
-                                +3.600 Con giống
-                            </h3>
-
-                            <ul class="highlight-list">
-                                <li>Bò giống</li>
-                                <li>Bò thịt thương phẩm</li>
-                                <li>Dê giống</li>
-                                <li>Dê thịt thương phẩm</li>
-                            </ul>
-                        </div>
-
-                        <div class="divider-vertical"></div>
-
-                        <div class="highlight-item">
-                            <span class="highlight-title">
-                                NUÔI TRỒNG THỦY SẢN
-                            </span>
-
-                            <h3 class="highlight-number">
-                                +600 Tấn/Năm
-                            </h3>
-
-                            <ul class="highlight-list">
-                                <li>Cá tra giống</li>
-                                <li>Cá tra thương phẩm</li>
-                                <li>Chuỗi nuôi đạt tiêu chuẩn</li>
-                                <li>Năng lực cung ứng ổn định</li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
+                
 
             </div>
         </div>
