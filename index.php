@@ -42,15 +42,66 @@
                 </h2>
 
                 <p>
-                    Công ty Cổ phần Nông nghiệp Hạnh Cường là doanh nghiệp hoạt động trong lĩnh vực chăn nuôi đại gia súc
-                    và nuôi trồng thủy sản tại An Giang. Thành lập từ năm 2018, công ty sở hữu hệ sinh thái nông nghiệp
-                    quy mô lớn với tổng giá trị tài sản khoảng 600 tỷ đồng.
+                    Công ty Cổ phần Nông nghiệp Hạnh Cường tự hào là một trong những đơn vị tiên phong, đặt nền móng cho mô hình phát triển kinh tế bền vững trong lĩnh vực chăn nuôi đại gia súc và nuôi trồng thủy sản tại tỉnh An Giang. Kể từ khi chính thức thành lập vào năm 2018, với tầm nhìn chiến lược và khát vọng nâng tầm nông nghiệp Việt Nam, công ty đã không ngừng nỗ lực nới rộng quy mô sản xuất, xây dựng thành công một hệ sinh thái nông nghiệp tuần hoàn, khép kín và đồng bộ từ chuỗi thức ăn đầu vào cho đến sản phẩm đầu ra chất lượng cao.
+                </p>
+                <p>
+                    Sở hữu tiềm lực kinh tế vững vàng với tổng giá trị tài sản đạt khoảng 600 tỷ đồng, Hạnh Cường liên tục đầu tư mạnh mẽ vào hệ thống hạ tầng trang trại đạt chuẩn quốc tế, ứng dụng các giải pháp công nghệ cao hàng đầu vào quy trình chăn nuôi và kiểm soát nghiêm ngặt dịch bệnh. Chúng tôi luôn cam kết cung ứng nguồn thực phẩm sạch, an toàn tuyệt đối cho thị trường, đồng thời tối ưu hóa chuỗi giá trị nông nghiệp, bảo vệ môi trường sinh thái và đồng hành cùng sự phát triển thịnh vượng của cộng đồng địa phương.
                 </p>
 
-                <div class="title-divider"></div>
+            </div>
 
+        </div>
+    </section>
+
+    <!-- số liệu nổi bật -->
+    <section class="features-section">
+        <div class="container-features">
+            <div class="features-grid">
+
+                <!-- Thẻ 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sack-dollar"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Vốn Đầu Tư 600 Tỷ</h4>
+                        <p>Tiềm lực tài chính vững mạnh</p>
+                    </div>
+                </div>
                 
-                
+                <!-- Thẻ 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck-fast"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Chất lượng đạt chuẩn</h4>
+                        <p>đạt chuẩn chất lượng...</p>
+                    </div>
+                </div>
+
+
+                <!-- Thẻ 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Áp dụng công nghệ mới</h4>
+                        <p>Công nghệ cao...</p>
+                    </div>
+                </div>
+
+                <!-- Thẻ 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Hợp tác cùng phát triển</h4>
+                        <p>hợp tác...</p>
+                    </div>
+                </div>
 
             </div>
         </div>

@@ -503,6 +503,10 @@ ul {
     flex: 1;
 }
 
+.about-content p{
+    text-align: justify;
+    margin-bottom: 10px;
+}
 
 .about-picture {
     flex: 1;
@@ -570,6 +574,70 @@ ul {
     font-size: 2.8rem;
 }
 
+.features-section {
+    background-color: var(--bg-light); /* Nền xám nhạt phân cách 2 section */
+    padding: 60px 0;
+    border-top: 1px solid #f0f0f0; /* Đường viền mỏng tạo độ nét */
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.container-features {
+    max-width: 100%; /* Khớp với chiều rộng chuẩn của web */
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Chia đều 4 cột ngang */
+    gap: 20px; /* Khoảng cách giữa các thẻ */
+}
+
+.feature-card {
+    background-color: var(--bg-color); /* Nền thẻ màu trắng */
+    display: flex; /* Hiển thị icon và chữ trên cùng 1 hàng */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 25px 20px;
+    gap: 15px; /* Khoảng cách giữa icon và cột chữ */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03); /* Đổ bóng cực kỳ mỏng giống mẫu */
+    border-radius: 2px; /* Hơi bo nhẹ góc để không quá sắc cạnh */
+    transition: transform 0.3s ease;
+}
+
+
+/* Định dạng Icon */
+.feature-icon {
+    font-size: 32px;
+    color: #333333; /* Giữ màu xám đen giống hệt ảnh mẫu (hoặc thay bằng var(--primary-color) nếu muốn màu xanh lá) */
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+}
+
+/* Định dạng cụm chữ */
+.feature-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.feature-text h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.2;
+}
+
+.feature-text p {
+    font-size: 0.8rem;
+    color: var(--text-light);
+    margin: 0;
+    line-height: 1.2;
+}
 /* lĩnh vực hoạt động */
 
 .fields {
