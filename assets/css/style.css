@@ -83,9 +83,10 @@ ul {
 }
 
 .top-bar-inner {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -120,20 +121,23 @@ ul {
 
 /* navbar */
 .navbar {
+    width: 100%;
     height: 72px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    padding: 0 0;
 }
 
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 
-    display: flex;
+    display: block;
     align-items: center;
-    gap: 100px;
 
     justify-content: space-between;
 }
@@ -143,6 +147,7 @@ ul {
     align-items: center;
     gap: 12px;
     color: var(--text-color);
+    
 }
 
 .logo img {
@@ -223,16 +228,14 @@ ul {
     letter-spacing: 0.2px;
     transition: background 0.2s;
 
-    margin-left: auto;
+    margin-left: 0;
 }
 
 .btn-contact:hover {
     background: var(--primary-hover);
 }
 
-.btn-contact {
-    margin-left: 150px;
-}
+
 
 /* FOOTER */
 .footer {
@@ -1048,6 +1051,207 @@ ul {
     left: -4px;
 }
 
+
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    margin-right: auto; /* Đẩy nút sang phải */
+    padding: 5px 10px;
+}
+
+/* =========================================
+   RESPONSIVE CHO MOBILE (Dưới 768px)
+   ========================================= */
+@media screen and (max-width: 768px) {
+    /* 1. Reset Container */
+    .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 15px;
+        display: block; /* Trả về block để .navbar quyết định layout flex */
+    }
+    .container-about, .container-features, .container-fields, .container-footer, .container-why {
+        padding: 0 15px;
+        gap: 20px;
+    }
+    .about-content h2{
+        font-size: 1.2rem;
+    }
+    .about-content h2 span{
+        font-size: 1.8rem; /* Thu nhỏ tiêu đề trên điện thoại */
+        text-align: center; /* Căn giữa tiêu đề cho cân đối */
+        margin-bottom: 20px;
+    }
+
+    .about-content p {
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+    /* 2. Top-bar gọn lại */
+    .top-bar-right, .top-bar-left span:nth-child(3) { 
+        display: none; 
+    }
+    .top-bar-left {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* 3. Mobile Menu (Trượt xuống) */
+    .btn-contact {
+        display: none; /* Ẩn nút liên hệ trên header mobile */
+        margin-left: 0 !important; /* Ẩn nút liên hệ trên header mobile */
+    }
+    .menu-toggle {
+        display: block; /* Hiện nút 3 gạch */
+        background: none;
+        border: none;
+        font-size: 1.6rem;
+        color: var(--primary-color);
+        cursor: pointer;
+        z-index: 1001; /* Hiện nút 3 gạch */
+    }
+    .navbar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Đẩy logo sang trái, nút 3 gạch sang phải */
+        position: relative;
+    }
+    .nav-menu {
+        position: fixed; /* Chuyển sang fixed để ghim menu cố định theo màn hình khi trượt ra */
+        top: 0;
+        left: 0;
+        width: 280px;    /* Đặt chiều rộng cố định cho menu di động thay vì 100% */
+        height: 100vh;   /* Chiếm toàn bộ chiều cao màn hình */
+        background: #ffffff;
+        flex-direction: column;
+        gap: 0;
+        box-shadow: 4px 0 15px rgba(0, 0, 0, 0.15); /* Đổi bóng đổ đổ dọc sang phải */
+        z-index: 9999;   /* Đảm bảo nằm đè lên mọi nội dung khác */
+        padding-top: 80px; /* Chừa không gian trên đỉnh để không bị che khuất */
+
+        /* HIỆU ỨNG TRƯỢT TỪ BÊN TRÁI */
+        transform: translateX(-100%); /* Đẩy toàn bộ menu ẩn về bên trái màn hình */
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Hiệu ứng trượt mượt mà */
+    }
+    .nav-menu.active {
+        transform: translateX(0);
+    }
+    .nav-menu li a {
+        border-radius: 0;
+        border-bottom: 1px solid var(--border-color);
+        padding: 15px;
+        text-align: center;
+    }
+
+    /* 4. Banner */
+    .banner {
+        height: 60vh;
+        min-height: 400px;
+    }
+    .banner-content h1 {
+        font-size: 2.2rem;
+    }
+    .banner::after {
+        height: 100px; /* Thu nhỏ viền rách chân banner */
+    }
+
+    /* 5. Giới thiệu sơ lược */
+    .container-about {
+        flex-direction: column;
+    }
+    .about-picture {
+        padding: 10px;
+    }
+
+    /* 6. Số liệu nổi bật */
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* 7. Lĩnh vực hoạt động (Căn chỉnh lại layout control) */
+    .fields-showcase-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .fields-navigation-axis {
+        flex: none;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 0;
+    }
+    .fields-line-curve, .fields-node::before {
+        display: none; /* Ẩn trục thời gian dọc */
+    }
+    .fields-node {
+        align-items: center;
+        padding-bottom: 5px;
+        border-bottom: 2px solid transparent;
+    }
+    .fields-node.active {
+        border-bottom-color: var(--secondary-color);
+    }
+    .fields-node.active .node-number, 
+    .fields-node.active .node-label {
+        transform: none; /* Xóa hiệu ứng thụt lề */
+    }
+    .fields-panel {
+        flex-direction: column; /* Text và ảnh chồng lên nhau */
+        gap: 20px;
+    }
+    .studio-text-block, .studio-image-block {
+        width: 100%;
+        flex: none;
+    }
+    .studio-image-block {
+        height: auto;
+        aspect-ratio: 16/10;
+    }
+
+    /* 8. Vì sao chọn chúng tôi (Timeline dọc 1 bên) */
+    .center-line {
+        left: 20px; /* Ép trục thẳng về sát trái */
+    }
+    .timeline-item {
+        width: 100% !important;
+        float: none !important;
+        margin-top: 30px !important;
+    }
+    .timeline-item.left .timeline-content, 
+    .timeline-item.right .timeline-content {
+        padding: 0 0 0 70px; /* Chữ thụt vào chừa chỗ cho icon */
+        text-align: left;
+    }
+    .timeline-icon {
+        left: -4px !important; /* Icon bám sát trục dọc */
+        right: auto !important;
+    }
+    .horizontal-line {
+        left: 20px !important;
+        right: auto !important;
+        width: 20px !important;
+    }
+    .timeline-dot {
+        left: 40px !important; /* Chấm mốc bám sát icon */
+        right: auto !important;
+    }
+
+    /* 9. Footer */
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .footer-logo-col {
+        justify-content: center; /* Căn giữa logo */
+    }
+}
 
 
 
