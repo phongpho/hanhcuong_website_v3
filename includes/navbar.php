@@ -62,7 +62,19 @@
             <ul class="nav-menu">
                 <li><a href="index.php">Trang chủ</a></li>
                 <li><a href="about-us.php">Giới thiệu</a></li>
-                <li><a href="fields.php">Lĩnh vực</a></li>
+
+
+                <li class="nav-item dropdown">
+                    <a href="fields.php">Lĩnh vực</a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="fields-cow.php">Chăn nuôi bò</a></li>
+                        <li><a href="fields-goat.php">Chăn nuôi dê</a></li>
+                        <li><a href="fields-fish.php">Cá tra xuất khẩu</a></li>
+                    </ul>
+                </li>
+
+                
                 <li><a href="updating.php">Sản phẩm </a></li>
                 <li><a href="updating.php">Liên hệ</a></li>
                 <li><a href="updating.php">Thành tựu</a></li>

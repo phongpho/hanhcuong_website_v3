@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lĩnh vực - Công ty Cổ phần Nông nghiệp Hạnh Cường</title>
+
+    <!-- Google Fonts & FontAwesome tương thích với hệ thống -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <?php include 'includes/navbar.php'; ?>
+
+
+    <section class="fields">
+        <div class="container-fields">
+
+            
+             
+
+        </div>
+
+    </section>
+    <?php include 'includes/footer.php'; ?>
+</body>
+
+</html>

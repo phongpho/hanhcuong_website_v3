@@ -16,32 +16,19 @@
 <body>
     <?php include 'includes/navbar.php'; ?>
 
-    <section class="banner">
-        <div class="banner-content" alt="banner công ty cổ phần nông nghiệp Hạnh Cường">
-            <span class="welcome-label">Câu chuyện của chúng tôi</span>
-            <h1>HẠNH CƯỜNG</h1>
-            <div class="title-divider"></div>
-            <p>
-                Hệ sinh thái nông nghiệp quy mô lớn<br>tại An Giang
-            </p>
-        </div>
-    </section>
+    
 
     <section class="about-us">
         <div class="container-about-us">
 
-            <div class="fields-header">
-                <h2>
-                    Về chúng tôi
-                </h2>
-                <div class="why-divider">
+            <div class="content-header">
+                <h2>Về Chúng Tôi</h2>
+                <div class="content-divider">
                     <span class="line-orange"></span>
                     <i class="fas fa-leaf"></i>
                     <span class="line-orange"></span>
                 </div>
-                <p>
-                    Lịch sử hình thành và phát triển của công ty
-                </p>
+            
             </div>
 
             <div class="about-us-content">

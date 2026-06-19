@@ -107,92 +107,13 @@
         </div>
     </section>
 
-    <!-- lĩnh vực hoạt động -->
-    <section class="fields">
-        <div class="container-fields">
-            
-            <div class="fields-header">
-                <h2>Lĩnh Vực Hoạt Động</h2>
-                <div class="why-divider">
-                    <span class="line-orange"></span>
-                    <i class="fas fa-leaf"></i>
-                    <span class="line-orange"></span>
-                </div>
-                <p>Sự kết hợp hài hòa giữa tự nhiên và công nghệ cao tại vùng đất An Giang</p>
-            </div>
-
-            <div class="fields-showcase-wrapper">
-                
-                <div class="fields-navigation-axis">
-                    <div class="fields-line-curve"></div>
-                    
-                    <div class="fields-node active" data-target="panel-channuoi">
-                        <span class="node-number">01</span>
-                        <span class="node-label">Chăn Nuôi Bò</span>
-                    </div>
-
-                    <div class="fields-node" data-target="panel-thuysan">
-                        <span class="node-number">02</span>
-                        <span class="node-label">Chăn nuôi Dê</span>
-                    </div>
-
-                    <div class="fields-node" data-target="panel-nongsan">
-                        <span class="node-number">03</span>
-                        <span class="node-label">Chăn nuôi Cá Tra</span>
-                    </div>
-                </div>
-
-                <div class="fields-studio-display">
-                    
-                    <div class="fields-panel active" id="panel-channuoi">
-                        <div class="studio-text-block">
-                            <span class="studio-meta">Đang cập nhật</span>
-                            <h3>Đang cập nhật</h3>
-                            <p>Hạnh Cường đầu tư đồng bộ hệ thống chuồng trại khép kín hiện đại. Áp dụng nghiêm ngặt quy trình kỹ thuật chăn nuôi tiên tiến, chủ động kiểm soát nguồn con giống dinh dưỡng và dịch bệnh nhằm cung ứng sản lượng thịt sạch ổn định.</p>
-                            <a href="#" class="studio-explore-btn">Xem chi tiết<i class="fa-solid fa-arrow-right-long"></i></a>
-                        </div>
-                        <div class="studio-image-block">
-                            <img src="assets/images/chan-nuoi-bo.jpg" alt="Chăn nuôi bò gia súc">
-                        </div>
-                    </div>
-
-                    <div class="fields-panel" id="panel-thuysan">
-                        <div class="studio-text-block">
-                            <span class="studio-meta">Đang cập nhật</span>
-                            <h3>Đang cập nhật</h3>
-                            <p>Khai thác lợi thế dòng nước ngọt dồi dào từ sông Hậu tại tỉnh An Giang, vùng nuôi cá tra thâm canh của chúng tôi áp dụng tiêu chuẩn an toàn thực phẩm khắt khe, kiểm soát chặt chẽ từ môi trường nước đến thức ăn đầu vào.</p>
-                            <a href="#" class="studio-explore-btn">Xem chi tiết<i class="fa-solid fa-arrow-right-long"></i></a>
-                        </div>
-                        <div class="studio-image-block">
-                            <img src="assets/images/chan-nuoi-de.jpg" alt="Nuôi cá tra xuất khẩu">
-                        </div>
-                    </div>
-
-                    <div class="fields-panel" id="panel-nongsan">
-                        <div class="studio-text-block">
-                            <span class="studio-meta">Đang cập nhật</span>
-                            <h3>Đang cập nhật</h3>
-                            <p>Ứng dụng triệt để giải pháp nông nghiệp sạch. Phế phụ phẩm từ quá trình trồng trọt được xử lý khoa học để tái sản xuất nguồn thức ăn chăn nuôi giàu dinh dưỡng, vừa giảm thiểu tác động môi trường vừa tối ưu chuỗi giá trị.</p>
-                            <a href="#" class="studio-explore-btn">Xem chi tiết<i class="fa-solid fa-arrow-right-long"></i></a>
-                        </div>
-                        <div class="studio-image-block">
-                            <img src="assets/images/chan-nuoi-ca-tra.jpg" alt="Nông nghiệp tuần hoàn">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
     <!-- vì sao chọn chúng tôi -->
     <section class="why-choose-us">
         <div class="container-why">
 
-            <div class="why-header">
+            <div class="content-header">
                 <h2>Vì Sao Chọn Chúng Tôi</h2>
-                <div class="why-divider">
+                <div class="content-divider">
                     <span class="line"></span>
                     <i class="fas fa-leaf"></i>
                     <span class="line"></span>
