@@ -164,7 +164,7 @@
                             <a href="#" class="studio-explore-btn">Xem chi tiết<i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
                         <div class="studio-image-block">
-                            <img src="assets/images/chan-nuoi-ca-tra.jpg" alt="Nuôi cá tra xuất khẩu">
+                            <img src="assets/images/chan-nuoi-de.jpg" alt="Nuôi cá tra xuất khẩu">
                         </div>
                     </div>
 
@@ -176,7 +176,7 @@
                             <a href="#" class="studio-explore-btn">Xem chi tiết<i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
                         <div class="studio-image-block">
-                            <img src="assets/images/background_banner.jpg" alt="Nông nghiệp tuần hoàn">
+                            <img src="assets/images/chan-nuoi-ca-tra.jpg" alt="Nông nghiệp tuần hoàn">
                         </div>
                     </div>
 
@@ -197,7 +197,7 @@
                     <i class="fas fa-leaf"></i>
                     <span class="line"></span>
                 </div>
-                <p>Mô tả vì sao chọn chúng tôi</p>
+                <p>Hạnh Cường - An Giang</p>
             </div>
 
             <div class="timeline-wrapper">
@@ -256,43 +256,15 @@
         </div>
     </section>
 
-    <!-- hình ảnh thực tế -->
-    <section class="gallery">
-        <div class="container-gallery">
-
-            <h2>Hình ảnh tại trang trại</h2>
-            <div class="title-divider"></div>
-
-            <div class="gallery-grid">
-
-                <div class="gallery-item large">
-                    <img src="assets/images/chan-nuoi-bo.jpg" alt="">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="assets/images/chan-nuoi-de.jpg" alt="">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="assets/images/chan-nuoi-ca-tra.jpg" alt="">
-                </div>
-
-                <div class="gallery-item wide">
-                    <img src="assets/images/chan-nuoi-bo.jpg" alt="">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="assets/images/chan-nuoi-ca-tra.jpg" alt="">
-                </div>
-
-            </div>
-
-        </div>
-    </section>
+    
 
     
 
     <?php include 'includes/footer.php'; ?>
+
+
+
+    
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const fieldNodes = document.querySelectorAll(".fields-node");

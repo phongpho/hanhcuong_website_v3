@@ -47,7 +47,7 @@
             <div class="about-us-content">
 
                 <div class="about-us-left">
-                    <img src="assets/images/background_banner.jpg" alt="">
+                    <img src="assets/images/background_banner.jpg" >
                 </div>
 
                 <div class="about-us-right">
@@ -66,7 +66,6 @@
                     
                 </div>
 
-            
             </div>
 
             <div class="about-us-journey">
@@ -132,6 +131,63 @@
         </div>
 
        
+    </section>
+
+    <!-- tầm nhìn sứ mệnh -->
+        <!-- tầm nhìn sứ mệnh -->
+    <section class="vision-mission-section">
+        <div class="container-vision">
+            
+            <!-- Tiêu đề chính -->
+            <div class="vision-main-header">
+                <h2>Tầm nhìn - Sứ mệnh</h2>
+                <div class="vision-divider">
+                    <span class="line-grey"></span>
+                    <i class="fas fa-leaf"></i>
+                    <span class="line-grey"></span>
+                </div>
+            </div>
+
+            <!-- Block 1: Tầm nhìn -->
+            <div class="vision-block">
+                <div class="vision-content-wrapper">
+                    <div class="vision-text-side">
+                        <div class="vision-circle-title">
+                            <h3>TẦM NHÌN</h3>
+                        </div>
+                        <ul class="vision-list">
+                            <li>
+                                Trở thành doanh nghiệp nông nghiệp hàng đầu khu vực Đồng bằng sông Cửu Long trong lĩnh vực chăn nuôi đại gia súc và nuôi trồng thủy sản công nghệ cao, xây dựng chuỗi giá trị nông nghiệp khép kín, bền vững và có năng lực cạnh tranh trên thị trường trong nước cũng như quốc tế.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="vision-image-side">
+                        <img src="assets/images/tam-nhin-chien-luoc.jpg" alt="Nông trại Hạnh Cường">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block 2: Sứ mệnh -->
+            <div class="vision-block">
+                <div class="vision-content-wrapper">
+                    <div class="vision-text-side">
+                        <div class="vision-circle-title">
+                            <h3>SỨ MỆNH</h3>
+                        </div>
+                        <ul class="vision-list">
+                            <ul class="vision-list">
+                            <li>Cung cấp nguồn thực phẩm chất lượng, an toàn và ổn định cho thị trường thông qua hoạt động chăn nuôi và nuôi trồng thủy sản quy mô lớn.</li>
+                            <li>Ứng dụng khoa học kỹ thuật và công nghệ hiện đại nhằm nâng cao hiệu quả sản xuất, tối ưu nguồn lực và phát triển bền vững.</li>
+                            <li>Đồng hành cùng người lao động, đối tác và cộng đồng địa phương trong quá trình phát triển kinh tế nông nghiệp.</li>
+                        </ul>
+                    </div>
+                    <div class="vision-image-side">
+                        <img src="assets/images/su-menh-hanh-dong.jpg" alt="Hoạt động siêu thị Hạnh Cường">
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </section>
 
 

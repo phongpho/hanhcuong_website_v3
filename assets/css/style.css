@@ -8,7 +8,7 @@
     --text-light: #666666;
 
     --bg-color: #FFFFFF;
-    --bg-light: #F8F9FA;
+    --bg-light: #cdcdce;
 
     --border-color: #E5E5E5;
 
@@ -672,8 +672,11 @@ ul {
 .fields-header h2 {
     font-family: 'Fraunces', serif;
     font-size: 2.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
     color: green;
-    margin-bottom: 0;
 }
 
 .fields-header p {
@@ -852,55 +855,6 @@ ul {
 
 
 
-/* hình ảnh thực tế */
-.gallery {
-    padding: 120px 0;
-    background: #fff;
-}
-
-.container-gallery {
-    width: 90%;
-    margin: 0 auto;
-    padding: 0 40px;
-}
-
-.container-gallery h2 {
-    font-family: 'Fraunces', serif;
-    font-size: 2.6rem;
-    color: green;
-    text-align: center;
-}
-
-.gallery-grid {
-    margin-top: 60px;
-
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 250px 250px;
-    gap: 20px;
-}
-
-.gallery-item {
-    overflow: hidden;
-    /* border-radius: 20px; */
-    box-shadow: 0 8px 30px rgba(0, 0, 0, .1);
-}
-
-.gallery-item.large {
-    grid-row: span 2;
-}
-
-.gallery-item.wide {
-    grid-column: span 1;
-}
-
-.gallery-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-    transition: .6s;
-}
 
 /* tại sao chọn chúng tôi */
 .why-choose-us {
@@ -923,7 +877,7 @@ ul {
 
 .why-header h2 {
     font-family: 'Fraunces', serif;
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 8px;
@@ -1109,12 +1063,8 @@ ul {
     margin: 0 auto;
     padding: 0;
 }
-.about-us-right p {
-   text-align: justify;
-   margin-bottom: 5px;
-}
 .about-us-content{
-    width: 100%;
+   width: 100%;
     margin: 0 auto;
     padding: 0 50px;
 
@@ -1125,6 +1075,12 @@ ul {
     justify-content: space-between;
     
 }
+.about-us-right p {
+   text-align: justify;
+   margin-bottom: 5px;
+}
+
+
 
 .about-us-journey {
     margin-top: 60px;
@@ -1215,3 +1171,135 @@ ul {
     line-height: 1.5;
     text-align: center;
 }
+
+/* --- VISION & MISSION SECTION --- */
+.vision-mission-section {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.container-vision {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Tiêu đề chính */
+.vision-main-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.vision-main-header h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    color: green;
+}
+
+.vision-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.vision-divider .line-grey {
+    width: 60px;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.vision-divider i {
+    color: var(--primary-color); /* Dùng màu xanh lá chính */
+    font-size: 1.2rem;
+}
+
+/* Block tầm nhìn / sứ mệnh chung */
+.vision-block {
+    margin-bottom: 70px;
+}
+.vision-block:last-child {
+    margin-bottom: 0;
+}
+
+.vision-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+/* Cột chữ (Trái) */
+.vision-text-side {
+    flex: 1;
+    min-width: 350px;
+    padding-top: 20px;
+}
+
+/* Vòng tròn tiêu đề màu vàng */
+.vision-circle-title {
+    width: 180px;
+    height: 180px;
+    background-color: #f8f187; /* Màu vàng nhạt */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.vision-circle-title h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-color); /* Màu xanh lá */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Danh sách gạch đầu dòng */
+.vision-list {
+    padding-left: 10px;
+}
+
+.vision-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+    list-style: none;
+    text-align: justify;
+}
+
+/* Dấu chấm tròn màu xanh lá đậm */
+.vision-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+/* Cột ảnh (Phải) */
+.vision-image-side {
+    flex: 1;
+    min-width: 350px;
+}
+
+.vision-image-side img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    aspect-ratio: 16/10; /* Đảm bảo ảnh có tỷ lệ đẹp */
+}
+
