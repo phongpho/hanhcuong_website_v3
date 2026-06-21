@@ -65,7 +65,7 @@
         <div class="container-farm-videos">
 
             <div class="farm-videos-heading">
-                <h2>Video thực tế tại trang trại</h2>
+                <h2>Xem thêm</h2>
 
                 <p>
                     Những hình ảnh thực tế ghi lại hoạt động sản xuất, chăm sóc và phát triển tại hệ thống trang trại của Hạnh Cường. Nội dung sẽ được cập nhật thường xuyên từ kênh YouTube chính thức của trang trại.

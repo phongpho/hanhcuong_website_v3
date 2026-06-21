@@ -42,10 +42,20 @@
                 </h2>
 
                 <p>
-                    Công ty Cổ phần Nông nghiệp Hạnh Cường tự hào là một trong những đơn vị tiên phong, đặt nền móng cho mô hình phát triển kinh tế bền vững trong lĩnh vực chăn nuôi đại gia súc và nuôi trồng thủy sản tại tỉnh An Giang. Kể từ khi chính thức thành lập vào năm 2018, với tầm nhìn chiến lược và khát vọng nâng tầm nông nghiệp Việt Nam, công ty đã không ngừng nỗ lực nới rộng quy mô sản xuất, xây dựng thành công một hệ sinh thái nông nghiệp tuần hoàn, khép kín và đồng bộ từ chuỗi thức ăn đầu vào cho đến sản phẩm đầu ra chất lượng cao.
+                    Công ty Cổ phần Nông nghiệp Hạnh Cường tự hào là một trong những đơn vị tiên phong, đặt nền móng cho
+                    mô hình phát triển kinh tế bền vững trong lĩnh vực chăn nuôi đại gia súc và nuôi trồng thủy sản tại
+                    tỉnh An Giang. Kể từ khi chính thức thành lập vào năm 2018, với tầm nhìn chiến lược và khát vọng
+                    nâng tầm nông nghiệp Việt Nam, công ty đã không ngừng nỗ lực nới rộng quy mô sản xuất, xây dựng
+                    thành công một hệ sinh thái nông nghiệp tuần hoàn, khép kín và đồng bộ từ chuỗi thức ăn đầu vào cho
+                    đến sản phẩm đầu ra chất lượng cao.
                 </p>
                 <p>
-                    Sở hữu tiềm lực kinh tế vững vàng với tổng giá trị tài sản đạt khoảng 600 tỷ đồng, Hạnh Cường liên tục đầu tư mạnh mẽ vào hệ thống hạ tầng trang trại đạt chuẩn quốc tế, ứng dụng các giải pháp công nghệ cao hàng đầu vào quy trình chăn nuôi và kiểm soát nghiêm ngặt dịch bệnh. Chúng tôi luôn cam kết cung ứng nguồn thực phẩm sạch, an toàn tuyệt đối cho thị trường, đồng thời tối ưu hóa chuỗi giá trị nông nghiệp, bảo vệ môi trường sinh thái và đồng hành cùng sự phát triển thịnh vượng của cộng đồng địa phương.
+                    Sở hữu tiềm lực kinh tế vững vàng với tổng giá trị tài sản đạt khoảng 600 tỷ đồng, Hạnh Cường liên
+                    tục đầu tư mạnh mẽ vào hệ thống hạ tầng trang trại đạt chuẩn quốc tế, ứng dụng các giải pháp công
+                    nghệ cao hàng đầu vào quy trình chăn nuôi và kiểm soát nghiêm ngặt dịch bệnh. Chúng tôi luôn cam kết
+                    cung ứng nguồn thực phẩm sạch, an toàn tuyệt đối cho thị trường, đồng thời tối ưu hóa chuỗi giá trị
+                    nông nghiệp, bảo vệ môi trường sinh thái và đồng hành cùng sự phát triển thịnh vượng của cộng đồng
+                    địa phương.
                 </p>
 
             </div>
@@ -68,7 +78,7 @@
                         <p>Tiềm lực tài chính vững mạnh</p>
                     </div>
                 </div>
-                
+
                 <!-- Thẻ 1 -->
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -106,6 +116,58 @@
             </div>
         </div>
     </section>
+    <!-- lĩnh vực hoạt động -->
+    <section class="fields-editorial">
+        <div class="fe-inner">
+
+            <div class="fe-left">
+                <span class="fe-label">Hệ sinh thái nông nghiệp</span>
+                <h2>Chúng tôi<br>hoạt động trong<br><span>lĩnh vực gì?</span></h2>
+                <div class="content-divider">
+                    <span class="line-orange"></span>
+                    <i class="fas fa-leaf" style="color:var(--primary-color);"></i>
+                    <span class="line-orange"></span>
+                </div>
+                <p>Hạnh Cường tập trung vào 3 lĩnh vực nông nghiệp chủ lực, xây dựng hệ sinh thái sản xuất khép kín, bền
+                    vững tại An Giang.</p>
+
+                <div class="fe-fields">
+                    <a href="fields-cow.php" class="fe-field-item">
+                        <div class="fe-field-icon"><i class="fas fa-cow"></i></div>
+                        <span class="fe-field-name">Chăn nuôi bò</span>
+                        <i class="fas fa-arrow-right fe-field-arrow"></i>
+                    </a>
+                    <a href="fields-goat.php" class="fe-field-item">
+                        <div class="fe-field-icon"><i class="fas fa-paw"></i></div>
+                        <span class="fe-field-name">Chăn nuôi dê</span>
+                        <i class="fas fa-arrow-right fe-field-arrow"></i>
+                    </a>
+                    <a href="fields-fish.php" class="fe-field-item">
+                        <div class="fe-field-icon"><i class="fas fa-fish"></i></div>
+                        <span class="fe-field-name">Nuôi cá tra</span>
+                        <i class="fas fa-arrow-right fe-field-arrow"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="fe-right">
+                <div class="fe-img fe-img-1">
+                    <img src="assets/images/chan-nuoi-bo.jpg" alt="Chăn nuôi bò">
+                    <span class="fe-img-tag">Chăn nuôi bò</span>
+                </div>
+                <div class="fe-img fe-img-2">
+                    <img src="assets/images/chan-nuoi-de.jpg" alt="Chăn nuôi dê">
+                    <span class="fe-img-tag">Chăn nuôi dê</span>
+                </div>
+                <div class="fe-img fe-img-3">
+                    <img src="assets/images/chan-nuoi-ca-tra.jpg" alt="Nuôi cá tra">
+                    <span class="fe-img-tag">Nuôi cá tra</span>
+                </div>
+                <div class="fe-dots"></div>
+            </div>
+
+        </div>
+    </section>
 
     <!-- vì sao chọn chúng tôi -->
     <section class="why-choose-us">
@@ -127,7 +189,8 @@
                 <div class="timeline-item left">
                     <div class="timeline-content">
                         <h3>Quy mô sản xuất lớn</h3>
-                        <p>Sở hữu hệ thống trang trại tập trung quy mô lớn, áp dụng công nghệ hiện đại mang lại năng suất và sản lượng vượt trội.</p>
+                        <p>Sở hữu hệ thống trang trại tập trung quy mô lớn, áp dụng công nghệ hiện đại mang lại năng
+                            suất và sản lượng vượt trội.</p>
                     </div>
                     <div class="timeline-icon">
                         <i class="fas fa-tractor"></i>
@@ -144,14 +207,16 @@
                     </div>
                     <div class="timeline-content">
                         <h3>Tổng tài sản 600 tỷ đồng</h3>
-                        <p>Tiềm lực tài chính vững mạnh đảm bảo khả năng đầu tư dài hạn vào công nghệ, hạ tầng và mở rộng chuỗi cung ứng.</p>
+                        <p>Tiềm lực tài chính vững mạnh đảm bảo khả năng đầu tư dài hạn vào công nghệ, hạ tầng và mở
+                            rộng chuỗi cung ứng.</p>
                     </div>
                 </div>
 
                 <div class="timeline-item left">
                     <div class="timeline-content">
                         <h3>Kinh nghiệm vận hành</h3>
-                        <p>Đội ngũ chuyên gia dày dặn kinh nghiệm, làm chủ quy trình kỹ thuật chăn nuôi và kiểm soát dịch bệnh nghiêm ngặt.</p>
+                        <p>Đội ngũ chuyên gia dày dặn kinh nghiệm, làm chủ quy trình kỹ thuật chăn nuôi và kiểm soát
+                            dịch bệnh nghiêm ngặt.</p>
                     </div>
                     <div class="timeline-icon">
                         <i class="fas fa-certificate"></i>
@@ -168,7 +233,8 @@
                     </div>
                     <div class="timeline-content">
                         <h3>Phát triển bền vững</h3>
-                        <p>Cam kết phát triển mô hình nông nghiệp sạch tuần hoàn, bảo vệ môi trường sinh thái và đồng hành cùng cộng đồng.</p>
+                        <p>Cam kết phát triển mô hình nông nghiệp sạch tuần hoàn, bảo vệ môi trường sinh thái và đồng
+                            hành cùng cộng đồng.</p>
                     </div>
                 </div>
 
@@ -177,13 +243,13 @@
         </div>
     </section>
 
-    
 
-    
+
+
 
     <?php include 'includes/footer.php'; ?>
 
-    
+
     <script src="assets/js/script.js"></script>
 </body>
 
